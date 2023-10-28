@@ -1,0 +1,292 @@
+* {
+    font-family: Montserrat;
+}
+p {
+    font-size: 16px;
+}
+.nav-wrapper a img {
+    width: 200px;
+}
+nav {
+    padding-top: 10px;
+    height: 100px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+#headerNav {
+    z-index: 9999;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -mx-transition: all .2s ease;
+}
+
+#headerNav.sticky {
+    background-color: #242A68 !important;
+    height: 70px;
+}
+/* Home */
+#Home {
+    margin-top: -120px;
+    background-image: url("images/banner-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0;
+    text-align: center;
+    background-size: 1920px;
+}
+#Home h1 {
+    font-size: 97px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+#Home p{
+    color: white;
+    max-width: 550px;
+}
+#Home .btn {
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#Home .btn:hover {
+    background-color: #3598DB;
+    border: none;
+}
+.sidenav li>a:hover {
+    background-color: #242A68;
+    color: white;
+}
+.sidenav a:hover {
+    background-color: #242A68;
+    color: white;
+}
+h5 {
+    font-size: 20px;
+    margin-bottom: -40px;
+    color: #3598DB;
+    font-weight: 600;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(26, 26, 26);
+    font-family: Montserrat;
+    font-weight: 900;
+   
+}
+#About img {
+    margin-top: 78px;
+    max-width: 100%;
+}
+#Services .btn{
+    margin-top: 18px;
+    border-radius: 100px;
+    padding: 1px -1px;
+    background-color: #3598DB;
+    font-size: 10px;
+    color: #fafafa !important;
+}
+.card {
+	position: relative;
+	margin: .5rem 0 1rem 0;
+	background-color: #fff;
+	border-radius: 43px;
+    overflow: hidden;
+    align-items: center;
+    max-height: 455px;
+}
+.card .card-image img {/*ellipse*/
+	display: block;
+	position: relative;
+	left: 0;
+	right: 0;
+	top: -111px;
+	bottom: 0;
+	width: 100%;
+}
+h4 {
+    font-size: 25px;
+    line-height: 111%;
+    margin: -6.907rem 0 0.656rem 0 !important;
+    font-weight: 600;
+}
+#Services a{
+    color: black !important;
+}
+#Services .btn, #About .btn, #CTA .btn{
+    margin-top: 18px;
+    border-radius: 100px;
+    padding: 1px -1px;
+    background-color: #3598DB;
+    font-size: 10px;
+    color: #fafafa !important;
+}
+#small-btn:hover{
+    background-color: #242A68;
+}
+#smg-btn:hover{
+    background-color: #242A68;
+}
+.card .card-reveal{
+    background-color: #3598DB;
+}
+.card .card-reveal{
+    color: #ffffff !important;
+}
+.card .card-reveal .card-title{
+    font-weight: 600;
+    color: #ffffff !important;
+}
+#Projects {
+    background-image: url('images/projects-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: visible;
+    height: 980px;
+    margin-bottom: 175px;
+    padding-top: 2rem;
+}
+.carousel {
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: -120px;
+}
+.carousel img {
+	width: 321px;
+	height: 630px;
+}
+.carousel .carousel-item {
+    width: 321px;
+}
+.text {
+    display: none;
+}
+a.carousel-item.active .text {
+    display: block;
+    color: white;
+}
+a.carousel-item.active h5{
+    color: #fafafa !important;
+}
+
+.carousel p{
+    margin-top: 47px !important;
+}
+#Tools .row img{
+    width: 100px;
+    height: 100px;
+}
+#Tools {
+    margin-top: -345px;
+    height: 700px;
+}
+.parallax-container {
+    position: relative;
+}
+.parallax-content {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1200px;
+    margin: auto !important;
+}
+#Tools .col.s4.l2 {
+    text-align: center;
+}
+#CTA {
+    background-image: url('images/cta-image.png');
+    padding: 100px 20px;
+}
+#CTA .btn{
+    padding: 0 30px;
+}
+#CTA .container{
+    text-align: center;
+}
+.tap-target-wave::before {
+   display: none !important;
+}
+#CTA a, .fixed-action-btn a{
+    background-color: #242A68;
+}
+.btn-floating{
+    background-color: #242A68;
+}
+.btn-floating:hover{
+    background-color: #242A68;
+}
+.tap-target{
+    background-color:  #3598DB;
+    color: white !important;
+    text-align: left !important;
+}
+.tap-target h5{
+    color: white !important;
+}
+.tap-target-content {
+    color: white !important;
+    padding: 18px 105px !important;
+    line-height: 2.5;
+}
+.page-footer{
+    background-image: url('images/footer-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: bottom;
+}
+
+.page-footer ul li {
+    line-height: 36px;
+}
+.page-footer h5{
+    margin-bottom: 0px !important;
+}
+.page-footer #connect img{
+    margin-right: 22px;
+}
+.tap-target h5{
+    margin-bottom: 0px !important;
+}
+footer a{
+    color: white;
+}
+#contact a{
+    text-decoration: underline;
+}
+#contact a:hover{
+    color: #3598DB;
+}
+.footer-copyright{
+    background-color: #3598DB !important;
+}
+#CTA .btn {
+    margin-top: 15px;
+    border-radius: 100px;
+    padding: 10px 50px !important;
+    background-color: #3598DB;
+    font-size: 18px;
+    color: #fafafa !important;
+    height: unset !important;
+}
+#small-btn:hover{
+    background-color: #242A68;
+}
+#smg-btn:hover{
+    background-color: #242A68;
+}

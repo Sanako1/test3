@@ -1,0 +1,102 @@
+@media screen and (max-width: 1920){
+    #Home h1{
+        font-size: 50px;
+    }
+    .card{
+        height: 455px;
+    }
+}
+@media screen and (max-width: 545px){
+    #Home h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 12px;
+    }
+    #About img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #Home h1{
+        font-size: 50px;
+    }
+    #About img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 412px){
+    #Home h1{
+        font-size: 50px;
+    }
+    #About img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 912px){
+    #About img{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 992px) {
+
+    #Services .row {
+        max-width: 700px;
+    }
+    .card .card-image img {
+        top: -200px !important;
+    }
+    .card .card-content {
+        margin-top: -92px;
+    }
+    #smg-btn {
+        margin-top: 18px !important;
+    }
+    #Services {
+        padding: 60px 20px 0px !important;
+    }
+    #CTA {
+        padding: 60px 20px !important;
+    }
+    .page-footer #connect img {
+        margin-right: 10px !important
+        ;
+    }
+}
+@media screen and (max-width: 750px) {
+    #Projects{
+        height: 700px;
+    }
+    #Projects .container {
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 90%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 940px) {
+    #Tools .row img{
+        width: 50px;
+        height: 50px;
+    }
+    .parallax-content{
+        padding: 238px;
+    }
+    #Tools .col{
+        padding: 10px;
+        margin-bottom: 70px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .parallax-content{
+        padding: 400px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .page-footer .col{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
